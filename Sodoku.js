@@ -211,6 +211,7 @@ function endGame() {
     clearTimeout(timer);
     if (lives === 0 || timeRemaining === 0) {
         id("lives").textContent = "You Lost, Try it again ...";
+
     } else {
         id("lives").textContent = "You Won, Congratulations !";
     }
