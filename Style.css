@@ -59,7 +59,7 @@ p#timer, p#lives {
 }
 
 #board {
-    color: rgba(5, 246, 246, 0.99);
+    color: rgb(255, 255, 255);
     padding-top: 10px;
     margin-top: 150px;
     display: flex;
@@ -71,7 +71,7 @@ p#timer, p#lives {
 }
 
 .tile {
-    border: 1px solid rgba(222, 186, 186, 0.99);
+    border: 2px solid rgb(116, 206, 118);
     width: 40px;
     height: 40px;
     text-align: center;
@@ -81,7 +81,7 @@ p#timer, p#lives {
 }
 
 p.selected {
-    background-color: #47ec19;
+    background-color: #c2b837;
 }
 
 p.incorrect {
@@ -89,11 +89,11 @@ p.incorrect {
 }
 
 .rightBorder {
-    border-right: 4px solid #9f4242;
+    border-right: 3px solid #f50d0d;
 }
 
 .bottomBorder {
-    border-bottom: 4px solid #ffffff;
+    border-bottom: 3px solid #f30a0a;
 }
 
 footer {
@@ -108,8 +108,8 @@ h1 {
 }
 
 label {
-    color: #06f646;
-    font-size: 0.6cm;
+    color: #eb0bf3;
+    font-size: 0.7cm;
 }
 
 h3 {
